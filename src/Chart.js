@@ -42,7 +42,7 @@ export default function Chart(props) {
       requestAnimationFrame(draw);
     }
     return () => cancelAnimationFrame(draw);
-  }, [canvasRef, width, height, histBins, data, cutoff, highCount]);
+  }, [canvasRef, width, height, histBins, data, cutoff, highCount, bins]);
 
   return (
     <div>
