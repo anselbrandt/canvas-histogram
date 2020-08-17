@@ -1,0 +1,16 @@
+canvas {
+  background: gainsboro;
+  margin: 1em;
+}
+
+.chartTitle {
+  margin: 1em;
+}
+
+.xAxis {
+  font-size: 0.5em;
+}
+
+.yAxis {
+  font-size: 0.5em;
+}
